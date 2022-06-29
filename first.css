@@ -1,0 +1,89 @@
+body
+{ 
+color:white;
+padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.he
+{     background-color:#6F2F14 ;
+     flex-basis: auto;
+      color: black;
+      text-align: center;
+      align-content: center;
+      padding-top: 20PX;
+      padding-bottom: 20PX;
+      height: 50vh;
+      clip-path: polygon (100% 40%, 0 50%, 0 50%, 0 100px);
+
+    }
+.hee
+{background-color: sandybrown;
+color:black;
+align-items: center;
+padding: 10px;
+}
+
+.she{
+    background-color: tan;
+    background-image: url(./_MG_1436.jpg);
+    height: 300;
+    width: 350;
+    color: black;
+    padding-top: 20px 20px 20px 20px;
+}
+.par{
+    text-decoration: solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.de
+{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.span
+{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 20px;
+}
+.tag{
+    letter-spacing: 10px;
+}
+.the
+{
+    color: black;
+    background-color: sandybrown;
+}
+
+img
+{
+    border-radius: 50%;
+    width: 300;
+    height: 200;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.container{
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    gap: 30px;
+}
+
+.body
+{
+    background-color: peru;
+    color: black;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
