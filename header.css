@@ -1,11 +1,12 @@
 .main{
     width:100%;
-    background-image: linear-gradient(rgba(214, 184, 255, 0.541), rgba(241, 231, 254, 0.733)), url(./LEX_4830.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.863)), url(./LEX_4830.jpg);
     background-position: center;
     background-size: cover;
     margin: 0;
     padding: 0;
     position: absolute;
+    font-family: Arial;
 }
 .logo{
     color: blueviolet;
@@ -75,7 +76,7 @@ ul li a:hover{
 }
 .content{
     width: 200px;
-    color: black;
+    color: white;
     margin-top: 200px;
     font-family: Arial;
 }
@@ -125,7 +126,7 @@ ul li a:hover{
 .form{
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.342));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.74));
     position: absolute;
     top: 180px;
     left: 870px;
@@ -136,17 +137,87 @@ ul li a:hover{
 }
 
 .form h2{
-    width: 220px;
+    width: 240px;
     font-family: sans-serif;
     text-align: center;
     color: blueviolet;
     font-size: 22px;
-    background-color: indigo;
+    background-color: white;
 }
 
 .form input{
     width: 240px;
     height: 35px;
     background: transparent;
-    border: 1px solid blueviolet;
+    border-bottom: 1px solid black;
+    color:black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman';
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+      color: white;
+      font-family: Arial;
+}
+
+.but{
+      width: 240px;
+      height: 35px;
+      background-color: blueviolet;
+      border: none;
+      border-radius: 10px;
+      margin-top: 30px;
+      font-size: 18px;    
+      color: white;
+}
+
+.but:hover{
+    background: orangered;
+}
+
+.but a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color:darkmagenta;
+}
+
+.low{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon{
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 18px;
+ transition: 2s ease-in;
+}
+
+.icon ion-icon:hover{
+color:purple;
 }
