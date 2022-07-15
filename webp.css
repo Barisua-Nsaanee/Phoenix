@@ -1,11 +1,12 @@
 body{
     font-family: monaco;
-    background-color:#28223f;
+    background: radial-gradient(#fff 20%, #28223f 50%);
 
 }
 .main
 {
     margin:100px auto;
+    background-color:#28223f;
     color: white;
     border-radius: 15px;
     width: 450px;
@@ -33,6 +34,9 @@ img{
 
 }
 
+.icons a{
+    color: white;
+}
 icons:hover{
     background-color: aqua;
 }
@@ -51,7 +55,7 @@ icons:hover{
     text-transform: uppercase;
     letter-spacing: 10px;
     margin: 20px 0 20 0;
-    margin-top: 75px;
+    margin-top: 80px;
 }
 
 button{
